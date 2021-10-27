@@ -16,6 +16,9 @@
 \usepackage{csvsimple}
 \usepackage{subcaption}
 \usepackage{url}
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{pgfplots}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -443,6 +446,38 @@
  kommandoer skal være i krølleparanteser og er stien til den fil, der skal inkluderes.
  Ved at bruge \tex{\caption} og \tex{\label} vil vi få et label til vores figur
  og en figurbeskrivelse.
+ \subsection{TikZ}
+   Man kan bruge udvidelsen TikZ til at lave grafer, plots, og andre figurer.
+   TiKZ kan være rigtig smart, men det kræver en god del at lære hvordan man
+   bruger det. Alternativt kan man fint lave sine grafer i python, excel eller
+   andet og importere dem som billeder. Figur~\ref{fig:tikz} viser et plot lavet
+   i TikZ and eksempel ~\ref{lst:tikz} viser koden bag.
+   \begin{figure}[h]
+     \centering
+     \begin{tikzpicture}
+       \begin{axis}[xmin=-10,xmax=10,ymin=-20,ymax=20, samples=100]
+         \addplot[blue, thick] (x,5*x^3+3*x);
+         \addplot[red, thin] (x*x,x);
+       \end{axis}
+     \end{tikzpicture}
+     \caption{Eksempel på en tikz figur}\label{fig:tikz}
+   \end{figure}
+   \begin{listing}[!h]
+     \begin{minted}[tabsize=1]{latex}
+    \begin{figure}
+     \centering
+     \begin{tikzpicture}
+      \begin{axis}[xmax=9,ymax=9, samples=50]
+      \addplot[blue, thick] (x,5*x^2+3*x);
+      \addplot[red, thin] (x*x,x);
+    \end{axis}
+  \end{tikzpicture}
+ \caption{Example of a tikz graph}\label{tiks:graph}
+\end{figure}
+  \end{minted}
+     \caption{Example creating a figure in tikz}\label{lst:tikz}
+   \end{listing}
+
 
 \section{Lister}
  I latex bruger man primært tre typer miljøer til lister. Alle typer skrives
