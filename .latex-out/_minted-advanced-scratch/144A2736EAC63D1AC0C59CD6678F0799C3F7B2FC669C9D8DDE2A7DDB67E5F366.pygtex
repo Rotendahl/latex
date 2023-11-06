@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+		\PYG{k}{def} \PYG{n+nf}{fib}\PYG{p}{(}\PYG{n}{n}\PYG{p}{):}
+			\PYG{c+c1}{\PYGZsh{} Fibonacci numbers}
+			\PYG{k}{if} \PYG{n}{n} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{2}\PYG{p}{:}
+				\PYG{k}{return} \PYG{l+m+mi}{1}
+			\PYG{k}{else} \PYG{p}{:}
+				\PYG{k}{return} \PYG{n}{fib}\PYG{p}{(}\PYG{n}{n}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{)} \PYG{o}{+} \PYG{n}{fib}\PYG{p}{(}\PYG{n}{n}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{2}\PYG{p}{)}
+\end{Verbatim}

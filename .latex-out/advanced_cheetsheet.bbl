@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{texLive}
+The latex project.
+\newblock \url{https://www.latex-project.org/get/}.
+
+\bibitem{vscode}
+Microsoft visual studio code.
+\newblock \url{https://code.visualstudio.com}.
+
+\bibitem{latexPackage}
+Vs code latex package.
+\newblock \url{ https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop }.
+
+\bibitem{attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan~N Gomez, Lukasz Kaiser, and Illia Polosukhin.
+\newblock {Attention Is All You Need}.
+\newblock {\em arXiv}, 2017.
+
+\end{thebibliography}

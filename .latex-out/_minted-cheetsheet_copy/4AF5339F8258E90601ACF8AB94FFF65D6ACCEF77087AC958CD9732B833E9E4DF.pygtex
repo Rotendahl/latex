@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+			\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}figure\PYG{n+nb}{\PYGZcb{}}[h]
+				\PYG{k}{\PYGZbs{}centering\PYGZbs{}includegraphics}\PYG{n+na}{[width=0.9\PYGZbs{}textwidth]}\PYG{n+nb}{\PYGZob{}}assets/compile.png\PYG{n+nb}{\PYGZcb{}}
+				\PYG{k}{\PYGZbs{}caption}\PYG{n+nb}{\PYGZob{}}Hvordan man kommer fra kildekode til pdf\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}fig:compile\PYG{n+nb}{\PYGZcb{}}
+			\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}figure\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

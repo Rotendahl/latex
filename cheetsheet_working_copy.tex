@@ -30,7 +30,7 @@
 \usepackage[lastpage,user]{zref}
 \usepackage{caption}
 \usepackage{scrextend}
-\usepackage[outputdir=./.latex-out]{minted} % TODO slet hvis du ikke bruger minted
+% \usepackage[outputdir=./.latex-out]{minted} % TODO slet hvis du ikke bruger minted
 \usepackage{listings}
 \usepackage{blindtext}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -40,7 +40,6 @@
 \newcommand{\tex}[1] {
   \mintinline{latex}{#1}
 }
-
 \pagestyle{fancy}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -66,134 +65,171 @@
   \vspace{22em}
   \today
 }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \begin{document}
-\maketitle		% Forside
-\thispagestyle{empty}
+\maketitle
+
+\newpage
+\tableofcontents
+
 \newpage
 
-\section{Introduktion}
- Dette dokument fungerer som et \emph{cheatsheet}. Det gennemgår de forskellige
- former for opsætning og funktioner i \LaTeX. Når du selv sidder og skriver, kan
- du enten bruge den færdige PDF som opslagsværk, eller kigge på kildekoden.
- Husk, at du selv kan udvide dokumentet med yderligere sektioner, hvis du finder
- nogle seje funktioner i din videre færd med \LaTeX{}.
-Har du lyst til at se hele videokurset så gå ind på:
-\url{https://ida.studynow.dk/courses/take/latex-for-begyndere/surveys/26409734-tre-sporgsmal-for-vi-starter}
+\section{Introduktion til \LaTeX}
+This document is as a \emph{cheat sheet}. It covers how to setup a \LaTeX{}
+document and showcases the most common \LaTeX{} commands and functions.
+You have both the pdf and source code such that you can add other cool commands
+you find on your journey. Vil du se en sej figur, så kig i section~\ref{sec:latex_to_pdf}
+
+We have that a partial derivative is given by
+\begin{flalign}
+	\frac{\partial f}{\partial x} & = 4x + 4y \\
+	\frac{\partial f}{\partial y} & = 6y + 4x
+\end{flalign}
+
+\section{Introduction}
 
 
+\section{\LaTeX{} background}
+Before diving into the syntax of \LaTeX{} you should know a bit about the
+process of writing \LaTeX{} documents. \LaTeX{} is a typesetting program and
+language. The main advantage of \LaTeX{} is its ability to typeset math, code
+and other scientific/technical figures. \LaTeX{} in an extension of TeX, which
+released by Donald Knuth in the year 1981.
 
-\section{Leg}\label{sec:leg}
- Hej med jer!
- \subsection{Leg med matematik}
-   Vi er nu i sektion~\ref{sec:leg}. Vi har \(x_k\) at at \(x + 2 = 4\)
-   Dette dokument fungerer som et \emph{cheatsheet}. Det gennemgår de forskellige
-   former for opsætning og funktioner i \LaTeX. Når du selv sidder og skriver, kan
-   du enten bruge den færdige PDF som opslagsværk, eller kigge på kildekoden.
-   Husk, at du selv kan udvide dokumentet med yderligere sektioner, hvis du finder
-   nogle seje funktioner i din videre færd med \LaTeX{}.
-   Har du lyst til at se hele videokurset så gå ind på:
-   \begin{equation}\label{eq:leg}
-     2 \tau = \pi = \gamma
-   \end{equation}
+\subsection{From source code to PDF}\label{sec:local}
+\LaTeX{} is not a word processor, but a language and compiler which given a
+file containing source code, written in an \emph{editor}, creates a PDF.
+as mentiond in section~\ref{sec:local}
 
-Dette dokument fungerer som et \emph{cheatsheet}. Det gennemgår de forskellige
-former for opsætning og funktioner i \LaTeX. Når du selv sidder og skriver, kan
-du enten bruge den færdige PDF som opslagsværk, eller kigge på kildekoden.
-Husk, at du selv kan udvide dokumentet med yderligere sektioner, hvis du finder
-nogle seje funktioner i din videre færd med \LaTeX{}.
-Har du lyst til at se hele videokurset så gå ind på:
 
-\begin{flalign*}
-  f(x,y)                        & = x^2 + y^3 \\
-  \frac{\partial f}{\partial x} & = 2x + 3y^2
-\end{flalign*}
+An editor for local use, could be \emph{Visual studio code}\cite{vscode}, it
+can be used to write any programming/markup language. Support for languages
+comes through packages that extends its functionality, there exists packages
+for most languages such as python, javascript and \LaTeX{}\cite{latexPackage}.
 
-\section{sub and superscripts}
- \[
-   \int{i=1}^{n} x_i
- \]
+After the editor has saved the source code, it must be passed to the compiler.
+This can be setup to happen automatically on save. There are different versions
+of the compiler, they differ in the amount of packages and features they come
+with.  ``The latex project TeX''\cite{texLive} has links to various distributions
+for the most common operating systems.
+With an editor and compiler installed you are ready to write \LaTeX{}.
+The processes is illustrated in figure~\ref{fig:compile}.
+\subsection{Fra kildekode til PDF}\label{sec:latex_to_pdf}
+
 \section{Matematik i \LaTeX}
- Latex' største styrke er dens evne til at formatere matematisk notation.
- For at skrive matematik skal man fortælle compileren, at den skal gå i
- \emph{math mode} for så at kunne skrive matematik specifikke kommandoer.
- Prøver man f.eks. at skrive \tex{\pi} uden at være i math mode, fejler den.
- Man kan som nævnt gå i inline math mode ved at skrive \tex{\(\pi\)}, som giver
- \(\pi\). Der findes også miljøer, som sætter en i math mode, f.eks. \tex{\equation}
- miløjet. Det går det også muligt at lave referencer til sine formler, f.eks.
- viser ligningen \eqref{dot} formlen for prikproduktet af to vectorer.
- \begin{equation}\label{dot}
-   \vec{a} \cdot \vec{b} = \sum_{i=1}^{n} a_i b_i
- \end{equation}
- Koden, der producerer overstående, kan ses i ekspempel~\ref{lst:dot}
- \begin{listing}[!h]
-   \begin{minted}[tabsize=1]{latex}
-\begin{equation}\label{dot} % Label som kan bruges som reference
-  \vec{a} \cdot \vec{b} = \sum_{i=1}^{n} a_i b_i
+After the editor has saved the source code, it must be passed to the compiler.
+This can be setup to happen automatically on save. There are different versions
+of the compiler, they differ in the amount of packages and features they come
+with.  ``The latex project TeX''\cite{texLive} has links to various distributions
+for the most common operating systems.
+With an editor and compiler installed you are ready to write \LaTeX{}.
+
+Der er mange cirkelkonstanter den bedste er \(\pi = 2 \cdot \tau\) de er seje
+givet et vilkårligt \(x\) som er mindre end \(x < n\) så kanm vi.
+\[
+\pi = \frac{1}{2} \tau
+\]
+
+\begin{quote}
+	Tau er altså bedre end pi sagde min forlæser se bare på ligning~\ref{eq:tau}
+\end{quote}
+
+
+\begin{equation}\label{eq:tau}
+	\pi = \frac{1}{2} \tau
 \end{equation}
-\end{minted}
-   \caption{Ligning for prikproduktet}\label{lst:dot}
- \end{listing}
 
-Ønsker vi at have en flere trin i en udledning, kan vi bruge flalign-miløjet.
-Der kan man have flere linjer, som bliver centreret efter placeringen af \tex{&}
-symbolet.
-\begin{flalign}
-  f(x, y)                       & = 3x^2y + y^2 \\
-  \frac{\partial f}{\partial x} & = 6xy         \\
-  \frac{\partial f}{\partial y} & = 3x^2 + 2y
-\end{flalign}
-Koden, der skaber overstående, kan ses i listing~\ref{lst:diff}. Ønsker man at
-fjerne tallene ude i højre side, kan det gøres ved at erstatte \tex{flaling} med
-\tex{flaling*}.
-\begin{listing}[!h]
-\begin{minted}[tabsize=1]{latex}
-\begin{flalign}
-  f(x, y)                       & = 3x^2y + y^2 \\
-  \frac{\partial f}{\partial x} & = 6xy         \\
-  \frac{\partial f}{\partial y} & = 3x^2 + 2y
-\end{flalign}
-\end{minted}
-\caption{Eksempel på formler centreret over flere linjer}\label{lst:diff}
-\end{listing}
 
-For at lave paranteser i sine formler skal man bare skrive som normalt, men
-ønsker man, at de \(\begin{bmatrix} x & y & z \end{bmatrix}\) skalerer efter indholdet, så kræver det, at man skriver
-\tex{\left ( x^2 \right )} rundt om. Typen af parenteser efter \tex{\left, \right}
-kommandoen bestemmer,  hvordan det ser ud. Listing~\ref{lst:par} viser, hvordan følgende
-er lavet.
 
+\begin{equation*}
+	2\pi =  \tau
+\end{equation*}
+
+hej med jer!
+\begin{flalign*}
+	f(x,y)                        & = 2x^2 + 3y^2 + 4xy \\
+	\frac{\partial f}{\partial x} & = 4x + 4y           \\
+	\frac{\partial f}{\partial y} & = 6y + 4x
+\end{flalign*}
+Der er mange cirkelkonstanter den bedste er \(\pi = 2 \cdot \tau\) de er seje
+givet et vilkårligt \(x\) som er mindre end \(x < n\) så kanm vi.
+Det er en normalfordeling givet ved
 \[
-  1 + \tau = \left ( \frac{\pi}{2} \right ) + 1
+f(x_{1}, x_2, \dots, x_n) = \int_{i=0}^{n} x_i \,dx
 \]
 
-\section{matricer}
- \[
- \begin{bmatrix}
-1 & 2 & 3 \\
-4 & 5 & 6 \\
-7 & 8 & 9
-\end{bmatrix}
-\]
-fancy thing
-\[
-\begin{bmatrix}
-1 & \dots & n \\
-\vdots & 5 & 6 \\
-7 & 8 & 9
-\end{bmatrix}
-\]
 
-\section{Hvordan compiler man i latex}
- Det kan du se i figur~\ref{fig:comp}
- \begin{figure}[h]
-   \includegraphics[width=0.8\linewidth]{assets/compile.png}
-   \caption{Her er hvordan vi kompilerer}\label{fig:comp}
- \end{figure}
+\subsection{Figure}
+Vi skal have noget grafik!
+\begin{figure}
+\centering
+\includegraphics[width=0.8\linewidth]{assets/compile.png}
+\caption{The process of compiling \LaTeX{} source code to PDF}
+\label{fig:compile}
+\end{figure}
+
+Der er mange cirkelkonstanteor den bedste er \(\pi = 2 \cdot \tau\) de er seje
+givet et vilkårligt \(x\) som er mindre end \(x < n\) så kanm vio.
+as shown in\cite{latexPackage}
 
 
+\newpage
+\appendix
+\bibliography{assets/references}{}
+\bibliographystyle{plain}
+
+\begin{table}
+	\centering
+	\begin{tabular}{l | c | c }
+		Navn     & Studie   & Semester \\ \hline
+		Benjamin & Datalogi & 3        \\ \hline
+		Mads     & Historie & 5        \\ \hline
+		Ida      & Biologi  & 6        \\ \hline
+	\end{tabular}
+	\caption{En tabel med studerende}
+	\label{tab:studerende}
+\end{table}
+
+En auto tabel:
+\begin{table}
+	\centering
+	\csvautotabular{assets/dices.csv}
+	\caption{En auto tabel}
+	\label{tab:studerende}
+\end{table}
+
+\newpage
+\appendix
+\bibliography{../assets/references}{}
+\bibliographystyle{plain}
+
+\newpage
+\subsection{\LaTeX{} tankegang \& syntax}
+
+\subsubsection{Kommando syntax}
+
+\subsection{Referencemateriale og problemløsning}
+
+
+
+
+\subsection{Matematikoperationer og notationer}
+
+\subsection{Matricer og vektorer}
+
+\section{Figurerer}
+
+\section{Lister}
+
+\section{Tabeller}
+
+
+\section{Kodetekst}
+
+\section{Referencer}
 
 
 \end{document}
-
 

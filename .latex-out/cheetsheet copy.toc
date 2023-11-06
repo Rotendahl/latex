@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{}%
+\contentsline {section}{\numberline {2}\LaTeX {} baggrund}{1}{}%
+\contentsline {subsection}{\numberline {2.1}Fra kildekode til PDF}{1}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Overleaf}{1}{}%
+\contentsline {subsection}{\numberline {2.2}\LaTeX {} tankegang \& syntax}{1}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}Kommando syntax}{1}{}%
+\contentsline {subsection}{\numberline {2.3}Referencemateriale og problemløsning}{2}{}%
+\contentsline {section}{\numberline {3}Matematik i \LaTeX }{3}{}%
+\contentsline {subsection}{\numberline {3.1}Matematikoperationer og notationer}{4}{}%
+\contentsline {subsection}{\numberline {3.2}Matricer og vektorer}{5}{}%
+\contentsline {section}{\numberline {4}Figurerer}{5}{}%
+\contentsline {subsection}{\numberline {4.1}TikZ}{6}{}%
+\contentsline {section}{\numberline {5}Lister}{6}{}%
+\contentsline {section}{\numberline {6}Tabeller}{7}{}%
+\contentsline {subsection}{\numberline {6.1}Automatiske tabeller}{8}{}%
+\contentsline {section}{\numberline {7}Kodetekst}{8}{}%
+\contentsline {section}{\numberline {8}Referencer}{9}{}%
+\contentsline {section}{\numberline {9}Example}{10}{}%

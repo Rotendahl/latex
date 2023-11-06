@@ -1,0 +1,190 @@
+\documentclass{article}
+\usepackage[a4paper, hmargin={2.8cm, 2.8cm}, vmargin={2.5cm, 2.5cm}]{geometry}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{mathtools}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{csvsimple}
+\usepackage{subcaption}
+\usepackage{url}
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{pgfplots}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{parskip}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[lastpage,user]{zref}
+\usepackage{caption}
+\usepackage{scrextend}
+\usepackage[outputdir=./.latex-out]{minted} % TODO slet hvis du ikke bruger minted
+\usepackage{listings}
+\usepackage{blindtext}
+
+\title{\LaTeX{} for øvede webinar}
+
+\author{Benjamin Rotendahl}
+
+\date{\today}
+
+% Variables
+\def\populationCount{1337}
+\newcommand{\LogicRule}[3]{\frac{#1 \quad #2}{#3}}
+\usepackage{chemfig}
+\usepackage{semantic}
+\begin{document}
+
+
+
+\maketitle
+
+\begin{abstract}
+	Abstract goes here...
+\end{abstract}
+
+\section{Introduktion}
+Som vi så i det første webinar, er \LaTeX{} et værktøj til at skrive dokumenter.
+I dette webinar vil vi se på nogle af de mere avancerede funktioner i \LaTeX{}.
+Vi har i alt \populationCount{} deltagere i dette webinar.
+
+\section{Avanceret Matematik i \LaTeX}
+vi kender inline math mode som \(x^2 + y^2 = z^2\) og display math mode som
+\[
+	\left (\frac{x}{2} + 1  \right )^2 + y ^2 = z ^2 +
+\]
+% Flalign osv.
+% Vector matricer
+% Text i matematik (cases)
+% detexify
+% parenteser
+% Logik formularer
+
+
+
+\section{variabler og makroer}
+\begin{picture}(220,75)(0,-35)
+	\put(110,0){\program{P,\compiler{C,\machine{M},\program{P,M}}}}
+\end{picture}
+% skriv din egen funktion
+% forsøgs resultat som variabel
+% Logik formulrer genbrug
+
+
+\[
+	\LogicRule{p => q }{\lnot q}{\lnot p}
+\]
+
+To define chemical formulae you can use units.
+
+\section{Pakker}
+\chemfig{*6((=O)-N(-H)-(*5(-N=-N(-H)-))=-(=O)-N(-H)-)}
+% Tex live Utility
+% Semantic
+% Chemfig
+% https://www.overleaf.com/learn/latex/Chemistry_formulae
+
+
+\section{Citationer i \LaTeX}
+% Bibtex som database
+% Find citationer online
+% Typer af citationer
+% Forskellige stilarter
+% https://www.overleaf.com/learn/latex/Bibtex_bibliography_styles#Table_of_stylename_values
+
+
+
+\section{Automatisk data indlæsning}
+% Tables først
+% CSV
+% Transponer osv.
+\begin{table}[h]
+	\centering\csvautotabular[]{assets/dices1.csv}
+	\caption{Automatic table from csc}\label{table:dices}
+\end{table}
+
+\section{Kodetekst}
+\begin{listing}[!h]
+	\begin{lstlisting}[tabsize=1]
+		def fib(n):
+			# Fibonacci numbers
+			if n < 2:
+				return 1
+			else :
+				return fib(n-1) + fib(n-2)
+		\end{lstlisting}
+	\caption{Eksempel på python kide}\label{lst:par}
+\end{listing}
+
+\begin{listing}[!h]
+	\begin{minted}[tabsize=1]{python}
+		def fib(n):
+			# Fibonacci numbers
+			if n < 2:
+				return 1
+			else :
+				return fib(n-1) + fib(n-2)
+		\end{minted}
+	\caption{Eksempel på python kide}\label{lst:par}
+\end{listing}
+
+\begin{listing}[!h]
+	\inputminted[firstline=0, lastline=12]{python}{assets/generator.py}
+	\caption{Eksempel på python kide}\label{lst:par}
+\end{listing}
+
+% https://ctan.org/pkg/minted?lang=en
+% https://tikz.net
+\section{Tikz}
+\begin{figure}[h]
+	\centering
+	\begin{tikzpicture}
+		\begin{axis}[xmin=-10,xmax=10,ymin=-20,ymax=20, samples=100]
+			\addplot[blue, thick] (x,5*x^3+3*x);
+			\addplot[red, thin] (x*x,x);
+		\end{axis}
+	\end{tikzpicture}
+	\caption{Eksempel på en tikz figur}\label{fig:tikz}
+\end{figure}
+
+
+\begin{figure}[h]
+	\centering
+	\begin{tikzpicture}
+		\coordinate (a) at (3,5);
+		\coordinate (b) at (5,3);
+		\draw[] (a) -- (b);
+
+	\end{tikzpicture}
+	\caption{Eksempel på en tikz figur}\label{fig:tikz}
+\end{figure}
+
+\section{Beamer}
+
+% \tableofcontents
+% Beamer?
+
+\newpage
+\appendix
+\bibliographystyle{apalike}
+\bibliography{assets/references}{}
+% https://www.overleaf.com/learn/latex/Bibtex_bibliography_styles#Table_of_stylename_values
+
+
+\end{document}
+
+x

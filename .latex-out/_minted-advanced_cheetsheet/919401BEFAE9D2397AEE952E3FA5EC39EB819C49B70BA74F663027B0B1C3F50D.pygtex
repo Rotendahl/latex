@@ -1,0 +1,26 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{		}\PYG{n+nc}{@article}\PYG{p}{\PYGZob{}}\PYG{n+nl}{attention}\PYG{p}{,}
+\PYG{+w}{		}\PYG{n+na}{author}\PYG{+w}{    }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{		}\PYG{n+na}{eprint}\PYG{+w}{    }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}1706.03762\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{		}\PYG{n+na}{journal}\PYG{+w}{   }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}arXiv\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{		}\PYG{n+na}{keywords}\PYG{+w}{  }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}Language Transformer\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{		}\PYG{n+na}{rating}\PYG{+w}{    }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}5\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{		}\PYG{n+na}{title}\PYG{+w}{     }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}\PYGZob{}Attention Is All You Need\PYGZcb{}\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{		}\PYG{n+na}{year}\PYG{+w}{      }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}2017\PYGZcb{}}
+\PYG{+w}{	}\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{	}\PYG{n+nc}{@misc}\PYG{p}{\PYGZob{}}\PYG{n+nl}{latexPackage}\PYG{p}{,}
+\PYG{+w}{		}\PYG{n+na}{howpublished}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}\PYGZbs{}url\PYGZob{}}
+\PYG{l+s}{			https://marketplace.visualstudio.com/items?itemName=James\PYGZhy{}Yu.latex\PYGZhy{}workshop}
+\PYG{l+s}{		\PYGZcb{}\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{		}\PYG{n+na}{title}\PYG{+w}{        }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}VS Code Latex Package\PYGZcb{}}
+\PYG{+w}{	}\PYG{p}{\PYGZcb{}}
+\PYG{+w}{	}\PYG{n+nc}{@misc}\PYG{p}{\PYGZob{}}\PYG{n+nl}{texLive}\PYG{p}{,}
+\PYG{+w}{		}\PYG{n+na}{howpublished}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}\PYGZbs{}url\PYGZob{}https://www.latex\PYGZhy{}project.org/get/\PYGZcb{}\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{		}\PYG{n+na}{title}\PYG{+w}{        }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}The LaTex Project\PYGZcb{}}
+\PYG{+w}{	}\PYG{p}{\PYGZcb{}}
+\PYG{+w}{	}\PYG{n+nc}{@misc}\PYG{p}{\PYGZob{}}\PYG{n+nl}{vscode}\PYG{p}{,}
+\PYG{+w}{		}\PYG{n+na}{howpublished}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}\PYGZbs{}url\PYGZob{}https://code.visualstudio.com\PYGZcb{}\PYGZcb{}}\PYG{p}{,}
+\PYG{+w}{		}\PYG{n+na}{title}\PYG{+w}{        }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZob{}Microsoft Visual Studio Code\PYGZcb{}}
+\PYG{+w}{	}\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

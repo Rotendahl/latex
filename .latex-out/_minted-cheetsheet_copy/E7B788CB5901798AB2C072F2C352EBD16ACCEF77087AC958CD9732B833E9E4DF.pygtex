@@ -1,0 +1,16 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	  \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}}[h]
+			\PYG{k}{\PYGZbs{}centering}
+			\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}\PYGZob{}}||c c | c c||\PYG{n+nb}{\PYGZcb{}}
+				\PYG{k}{\PYGZbs{}hline}
+				søjle1 \PYG{n+nb}{\PYGZam{}} søjle2 \PYG{n+nb}{\PYGZam{}} søjle4 \PYG{n+nb}{\PYGZam{}} søjle4 \PYG{k}{\PYGZbs{}\PYGZbs{}}  \PYG{k}{\PYGZbs{}hline}
+				1      \PYG{n+nb}{\PYGZam{}} 6      \PYG{n+nb}{\PYGZam{}} 87837  \PYG{n+nb}{\PYGZam{}} 787    \PYG{k}{\PYGZbs{}\PYGZbs{}}
+				2      \PYG{n+nb}{\PYGZam{}} 7      \PYG{n+nb}{\PYGZam{}} 78     \PYG{n+nb}{\PYGZam{}} 5415   \PYG{k}{\PYGZbs{}\PYGZbs{}}
+				3      \PYG{n+nb}{\PYGZam{}} 545    \PYG{n+nb}{\PYGZam{}} 778    \PYG{n+nb}{\PYGZam{}} 7507   \PYG{k}{\PYGZbs{}\PYGZbs{}}
+				4      \PYG{n+nb}{\PYGZam{}} 545    \PYG{n+nb}{\PYGZam{}} 18744  \PYG{n+nb}{\PYGZam{}} 7560   \PYG{k}{\PYGZbs{}\PYGZbs{}}
+				5      \PYG{n+nb}{\PYGZam{}} 88     \PYG{n+nb}{\PYGZam{}} 788    \PYG{n+nb}{\PYGZam{}} 6344   \PYG{k}{\PYGZbs{}\PYGZbs{}}
+				\PYG{k}{\PYGZbs{}hline}
+			\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}}
+			\PYG{k}{\PYGZbs{}caption}\PYG{n+nb}{\PYGZob{}}Eksempel på manuelt skrevet tabel\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}table:data\PYG{n+nb}{\PYGZcb{}}
+		\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

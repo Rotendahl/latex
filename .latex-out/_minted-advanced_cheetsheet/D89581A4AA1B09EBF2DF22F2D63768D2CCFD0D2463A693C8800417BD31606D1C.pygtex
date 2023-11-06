@@ -1,0 +1,20 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+				\PYG{k}{\PYGZbs{}documentclass}\PYG{n+nb}{\PYGZob{}}article\PYG{n+nb}{\PYGZcb{}}
+				\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}amsmath\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} pakke til ekstra matematiksymboler}
+				\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}graphicx\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} pakke til figurer og billeder}
+
+				\PYG{k}{\PYGZbs{}title}\PYG{n+nb}{\PYGZob{}}
+					\PYG{k}{\PYGZbs{}large}\PYG{n+nb}{\PYGZob{}}Study Now\PYG{n+nb}{\PYGZcb{}} \PYG{k}{\PYGZbs{}\PYGZbs{}}
+					\PYG{k}{\PYGZbs{}Large}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}LaTeX} webinar\PYG{n+nb}{\PYGZcb{}} \PYG{k}{\PYGZbs{}\PYGZbs{}}
+				\PYG{n+nb}{\PYGZcb{}}
+
+				\PYG{k}{\PYGZbs{}author}\PYG{n+nb}{\PYGZob{}}
+					Benjamin Rotendahl \PYGZhy{}\PYGZhy{}\PYGZhy{} Benjamin@Rotendahl.dk
+				\PYG{n+nb}{\PYGZcb{}}
+
+				\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}document\PYG{n+nb}{\PYGZcb{}}
+						\PYG{k}{\PYGZbs{}maketitle}
+						\PYG{k}{\PYGZbs{}section}\PYG{n+nb}{\PYGZob{}}Introduction\PYG{n+nb}{\PYGZcb{}}
+							Dette dokument viser hvordan \PYG{l+s}{\PYGZbs{}(}\PYG{n+nv}{\PYGZbs{}dots}\PYG{l+s}{\PYGZbs{})}
+				\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}document\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

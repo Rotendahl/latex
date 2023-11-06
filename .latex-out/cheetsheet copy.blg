@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Homebrew)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: cheetsheet copy.aux
+The style file: plain.bst
+Database file #1: assets/references.bib
+Warning--to sort, need author or key in vscode
+Warning--to sort, need author or key in latexPackage
+Warning--to sort, need author or key in texLive
+You've used 4 entries,
+            2118 wiz_defined-function locations,
+            513 strings with 4481 characters,
+and the built_in function-call counts, 925 in all, are:
+= -- 80
+> -- 46
+< -- 0
++ -- 21
+- -- 16
+* -- 54
+:= -- 141
+add.period$ -- 9
+call.type$ -- 4
+change.case$ -- 20
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 31
+empty$ -- 87
+format.name$ -- 16
+if$ -- 199
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 1
+newline$ -- 20
+num.names$ -- 2
+pop$ -- 35
+preamble$ -- 1
+purify$ -- 16
+quote$ -- 0
+skip$ -- 31
+stack$ -- 0
+substring$ -- 21
+swap$ -- 4
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 16
+warning$ -- 3
+while$ -- 2
+width$ -- 5
+write$ -- 33
+(There were 3 warnings)

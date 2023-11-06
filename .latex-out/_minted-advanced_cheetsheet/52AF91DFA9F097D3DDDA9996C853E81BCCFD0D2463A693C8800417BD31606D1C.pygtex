@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+     \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}}[h]
+       \PYG{k}{\PYGZbs{}centering\PYGZbs{}csvautotabular}\PYG{n+nb}{\PYGZob{}}assets/dices.csv\PYG{n+nb}{\PYGZcb{}}
+       \PYG{k}{\PYGZbs{}caption}\PYG{n+nb}{\PYGZob{}}Automatic table from csc\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}table:dices\PYG{n+nb}{\PYGZcb{}}
+     \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}}
+     \PYG{k}{\PYGZbs{}caption}\PYG{n+nb}{\PYGZob{}}Eksempel på automatisk tabel \PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}lst:dices\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

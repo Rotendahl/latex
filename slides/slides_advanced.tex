@@ -1,0 +1,35 @@
+\documentclass{beamer}
+\usetheme{metropolis}           % Use metropolis theme
+\usepackage[outputdir=./.latex-out]{minted} % TODO slet hvis du ikke bruger minted
+\newcommand{\tex}[1] {
+  \mintinline{latex}{#1}
+}
+\usepackage{listings}
+\title{\LaTeX Advanced Webinar}
+\date{\today}
+\author{Benjamin Rotendahl}
+\institute{Study Now}
+\begin{document}
+\maketitle
+\section{Velkommen}
+
+\begin{frame}{Velkommen}
+	Formålet med dette webinar er at skabe introducere mere komplekse aspekter af
+	\LaTeX, der hjælper særligt ved større opgaver
+\end{frame}
+
+\begin{frame}{Planen for idag}
+	\begin{itemize}
+		\item{Introduction} \pause
+		\item{Matematik i \LaTeX} \pause
+		\item{variabler og makroer} \pause
+		\item{Pakker} \pause
+		\item{Citationer i \LaTeX} \pause
+		\item{Automatisk data indlæsning} \pause
+		\item{Kodetekst} \pause
+		\item{Tikz} \pause
+		\item{Beamer}
+	\end{itemize}
+\end{frame}
+
+\end{document}

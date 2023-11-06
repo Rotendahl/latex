@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+		\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}dot\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} Label som kan bruges som reference}
+			\PYG{k}{\PYGZbs{}vec}\PYG{n+nb}{\PYGZob{}}a\PYG{n+nb}{\PYGZcb{}} \PYG{k}{\PYGZbs{}cdot} \PYG{k}{\PYGZbs{}vec}\PYG{n+nb}{\PYGZob{}}b\PYG{n+nb}{\PYGZcb{}} = \PYG{k}{\PYGZbs{}sum}\PYG{n+nb}{\PYGZus{}\PYGZob{}}i=1\PYG{n+nb}{\PYGZcb{}\PYGZca{}\PYGZob{}}n\PYG{n+nb}{\PYGZcb{}} a\PYG{n+nb}{\PYGZus{}}i b\PYG{n+nb}{\PYGZus{}}i
+		\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

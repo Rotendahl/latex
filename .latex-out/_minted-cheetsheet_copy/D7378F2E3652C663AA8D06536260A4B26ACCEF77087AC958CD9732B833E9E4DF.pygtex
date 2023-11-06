@@ -1,0 +1,29 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+		\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+			\PYG{k}{\PYGZbs{}item} Et punkt
+			\PYG{k}{\PYGZbs{}item} Et andet punkt
+			\PYG{k}{\PYGZbs{}item} Punkt med underliste  \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+							\PYG{k}{\PYGZbs{}item} Et underlistepunkt
+							\PYG{k}{\PYGZbs{}item} Et andet underlistepunkt
+						\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+		\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+
+		\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}enumerate\PYG{n+nb}{\PYGZcb{}}
+			\PYG{k}{\PYGZbs{}item} Et punkt
+			\PYG{k}{\PYGZbs{}item} Et andet punkt
+			\PYG{k}{\PYGZbs{}item} Punkt med underliste \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}enumerate\PYG{n+nb}{\PYGZcb{}}
+							\PYG{k}{\PYGZbs{}item} Et underlistepunkt
+							\PYG{k}{\PYGZbs{}item} Et andet underlistepunkt
+						\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}enumerate\PYG{n+nb}{\PYGZcb{}}
+		\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}enumerate\PYG{n+nb}{\PYGZcb{}}
+
+		\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}description\PYG{n+nb}{\PYGZcb{}}
+			\PYG{k}{\PYGZbs{}item}\PYG{n+na}{[det første]} Et punkt
+			\PYG{k}{\PYGZbs{}item}\PYG{n+na}{[det andet]} Et andet punkt
+			\PYG{k}{\PYGZbs{}item}\PYG{n+na}{[det trejde]} Punkt med underliste \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}description\PYG{n+nb}{\PYGZcb{}}
+					\PYG{k}{\PYGZbs{}item}\PYG{n+na}{[første underpunkt]} Et underlistepunkt
+					\PYG{k}{\PYGZbs{}item}\PYG{n+na}{[andet underpunkt]} Et andet underlistepunkt
+				\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}description\PYG{n+nb}{\PYGZcb{}}
+		\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}description\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}description\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

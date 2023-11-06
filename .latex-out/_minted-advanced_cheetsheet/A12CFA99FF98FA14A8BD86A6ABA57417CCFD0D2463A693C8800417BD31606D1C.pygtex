@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}figure\PYG{n+nb}{\PYGZcb{}}
+     \PYG{k}{\PYGZbs{}centering}
+     \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tikzpicture\PYG{n+nb}{\PYGZcb{}}
+      \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}axis\PYG{n+nb}{\PYGZcb{}}[xmax=9,ymax=9, samples=50]
+      \PYG{k}{\PYGZbs{}addplot}\PYG{n+na}{[blue, thick]} (x,5*x\PYG{n+nb}{\PYGZca{}}2+3*x);
+      \PYG{k}{\PYGZbs{}addplot}\PYG{n+na}{[red, thin]} (x*x,x);
+    \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}axis\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tikzpicture\PYG{n+nb}{\PYGZcb{}}
+ \PYG{k}{\PYGZbs{}caption}\PYG{n+nb}{\PYGZob{}}Example of a tikz graph\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}tiks:graph\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}figure\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

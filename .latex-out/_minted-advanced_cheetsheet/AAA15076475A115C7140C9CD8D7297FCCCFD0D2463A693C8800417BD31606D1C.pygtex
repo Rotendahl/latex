@@ -1,0 +1,27 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+			\PYG{l+s+sb}{\PYGZbs{}[}
+\PYG{n+nb}{				}\PYG{n+nv}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}pmatrix\PYGZcb{}}
+\PYG{n+nb}{					}\PYG{l+m}{1}\PYG{n+nb}{ \PYGZam{} }\PYG{l+m}{2}\PYG{n+nb}{ \PYGZam{} }\PYG{l+m}{3}\PYG{n+nb}{ }\PYG{n+nv}{\PYGZbs{}\PYGZbs{}}
+\PYG{n+nb}{					}\PYG{l+m}{4}\PYG{n+nb}{ \PYGZam{} }\PYG{l+m}{5}\PYG{n+nb}{ \PYGZam{} }\PYG{l+m}{6}\PYG{n+nb}{ }\PYG{n+nv}{\PYGZbs{}\PYGZbs{}}
+\PYG{n+nb}{					}\PYG{l+m}{7}\PYG{n+nb}{ \PYGZam{} }\PYG{l+m}{8}\PYG{n+nb}{ \PYGZam{} }\PYG{l+m}{9}
+\PYG{n+nb}{				}\PYG{n+nv}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}pmatrix\PYGZcb{}}
+\PYG{n+nb}{				,}\PYG{n+nv}{\PYGZbs{}quad}
+\PYG{n+nb}{				}\PYG{n+nv}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}bmatrix\PYGZcb{}}
+\PYG{n+nb}{					}\PYG{l+m}{1}\PYG{n+nb}{ \PYGZam{} }\PYG{l+m}{2}\PYG{n+nb}{ \PYGZam{} }\PYG{l+m}{3}\PYG{n+nb}{ }\PYG{n+nv}{\PYGZbs{}\PYGZbs{}}
+\PYG{n+nb}{					}\PYG{l+m}{4}\PYG{n+nb}{ \PYGZam{} }\PYG{l+m}{5}\PYG{n+nb}{ \PYGZam{} }\PYG{l+m}{6}\PYG{n+nb}{ }\PYG{n+nv}{\PYGZbs{}\PYGZbs{}}
+\PYG{n+nb}{					}\PYG{l+m}{7}\PYG{n+nb}{ \PYGZam{} }\PYG{l+m}{8}\PYG{n+nb}{ \PYGZam{} }\PYG{l+m}{9}
+\PYG{n+nb}{				}\PYG{n+nv}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}bmatrix\PYGZcb{}}
+\PYG{n+nb}{				,}\PYG{n+nv}{\PYGZbs{}quad}
+\PYG{n+nb}{				}\PYG{n+nv}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}Bmatrix\PYGZcb{}}
+\PYG{n+nb}{					}\PYG{l+m}{1}\PYG{n+nb}{ \PYGZam{} }\PYG{l+m}{2}\PYG{n+nb}{ \PYGZam{} }\PYG{l+m}{3}\PYG{n+nb}{ }\PYG{n+nv}{\PYGZbs{}\PYGZbs{}}
+\PYG{n+nb}{					}\PYG{l+m}{4}\PYG{n+nb}{ \PYGZam{} }\PYG{l+m}{5}\PYG{n+nb}{ \PYGZam{} }\PYG{l+m}{6}\PYG{n+nb}{ }\PYG{n+nv}{\PYGZbs{}\PYGZbs{}}
+\PYG{n+nb}{					}\PYG{l+m}{7}\PYG{n+nb}{ \PYGZam{} }\PYG{l+m}{8}\PYG{n+nb}{ \PYGZam{} }\PYG{l+m}{9}
+\PYG{n+nb}{				}\PYG{n+nv}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}Bmatrix\PYGZcb{},}
+\PYG{n+nb}{				,}\PYG{n+nv}{\PYGZbs{}quad}
+\PYG{n+nb}{				}\PYG{n+nv}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}bmatrix\PYGZcb{}}
+\PYG{n+nb}{					}\PYG{l+m}{1}\PYG{n+nb}{      \PYGZam{} }\PYG{n+nv}{\PYGZbs{}dots}\PYG{n+nb}{  \PYGZam{} n      }\PYG{n+nv}{\PYGZbs{}\PYGZbs{}}
+\PYG{n+nb}{					}\PYG{n+nv}{\PYGZbs{}vdots}\PYG{n+nb}{ \PYGZam{} }\PYG{n+nv}{\PYGZbs{}ddots}\PYG{n+nb}{ \PYGZam{} }\PYG{n+nv}{\PYGZbs{}vdots}\PYG{n+nb}{ }\PYG{n+nv}{\PYGZbs{}\PYGZbs{}}
+\PYG{n+nb}{					n      \PYGZam{} }\PYG{n+nv}{\PYGZbs{}dots}\PYG{n+nb}{  \PYGZam{} n}
+\PYG{n+nb}{				}\PYG{n+nv}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}bmatrix\PYGZcb{}}
+\PYG{n+nb}{			}\PYG{l+s}{\PYGZbs{}]}
+\end{Verbatim}
