@@ -1,20 +1,20 @@
 # Fdb version 4
-["bibtex .latex-out/advanced-scratch"] 1699307844 ".latex-out/advanced-scratch.aux" ".latex-out/advanced-scratch.bbl" ".latex-out/advanced-scratch" 1699307875 0
+["bibtex .latex-out/advanced-scratch"] 1699373165 ".latex-out/advanced-scratch.aux" ".latex-out/advanced-scratch.bbl" ".latex-out/advanced-scratch" 1699373166 0
   "./assets/references.bib" 1699305342 2715 15f69e3e5ac2fab9ee10bd7a8f388826 ""
-  ".latex-out/advanced-scratch.aux" 1699307875 2416 046d716b5937c26fef3f3b04e0f89145 "pdflatex"
+  ".latex-out/advanced-scratch.aux" 1699373166 2495 01a0d515703c0b422b8c8802119bce74 "pdflatex"
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/bibtex/bst/base/apalike.bst" 1678549815 24635 604dafcc79f521a11ea73e506e1fbd98 ""
   (generated)
   ".latex-out/advanced-scratch.bbl"
   ".latex-out/advanced-scratch.blg"
   (rewritten before read)
-["pdflatex"] 1699307874 "/Users/rotendahl/Documents/Projects/Study Now/Webinars/latex/advanced-scratch.tex" ".latex-out/advanced-scratch.pdf" "advanced-scratch" 1699307875 0
+["pdflatex"] 1699373165 "/Users/rotendahl/Documents/Projects/Study Now/Webinars/latex/advanced-scratch.tex" ".latex-out/advanced-scratch.pdf" "advanced-scratch" 1699373166 0
   ".latex-out/_minted-advanced-scratch/13399CE22E75BC5F6BFF6023DB743DDDCD9EBA9E5F3304C51A4F7A904EC05CAB.pygtex" 1699307290 846 eabfe7fd288177f957537658a3cdefaf ""
   ".latex-out/_minted-advanced-scratch/144A2736EAC63D1AC0C59CD6678F0799C3F7B2FC669C9D8DDE2A7DDB67E5F366.pygtex" 1699307290 476 434efe2ee39ed44f565eb5256d55f7a0 ""
   ".latex-out/_minted-advanced-scratch/default.pygstyle" 1699307290 6428 74aba51736a5bc6590f8f7dd413c6f27 ""
-  ".latex-out/advanced-scratch.aux" 1699307875 2416 046d716b5937c26fef3f3b04e0f89145 "pdflatex"
-  ".latex-out/advanced-scratch.bbl" 1699307844 49 0eba253fc001332e731e8aba3f23127b "bibtex .latex-out/advanced-scratch"
-  "/Users/rotendahl/Documents/Projects/Study Now/Webinars/latex/advanced-scratch.tex" 1699307873 4395 e6eb58ebea400528b24868b20223a5ef ""
-  "/dev/null" 1699307873 0 d41d8cd98f00b204e9800998ecf8427e ""
+  ".latex-out/advanced-scratch.aux" 1699373166 2495 01a0d515703c0b422b8c8802119bce74 "pdflatex"
+  ".latex-out/advanced-scratch.bbl" 1699373165 271 8309393c99b22d060cab67d94ae67379 "bibtex .latex-out/advanced-scratch"
+  "/Users/rotendahl/Documents/Projects/Study Now/Webinars/latex/advanced-scratch.tex" 1699373161 4429 a5c9255b1e96227a0ebfd0fbedbd1261 ""
+  "/dev/null" 1699373165 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1678549815 2971 def0b6c1f0b107b3b936def894055589 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1678549815 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/fontname/texfonts.map" 1678549815 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -29,6 +29,7 @@
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1678549815 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm" 1678549815 3584 3169d30142b88a27d4ab0e3468e963a2 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/jknappen/ec/ecrm1728.tfm" 1678549815 3584 3c76ccb63eda935a68ba65ba9da29f1a ""
+  "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/jknappen/ec/ecti1000.tfm" 1678549815 3072 3bce340d4c075dffe6d4ec732b4c32fe ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1678549815 1536 06717a2b50de47d4087ac0e6cd759455 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1678549815 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/jknappen/ec/tctt1000.tfm" 1678549815 1536 c5729d01ab121276cf99b309129349a0 ""
@@ -67,6 +68,7 @@
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1678549815 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1678549815 136101 f533469f523533d38317ab5729d00c8a ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb" 1678549815 131438 3aa300b3e40e5c8ba7b4e5c6cebc5dd6 ""
+  "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb" 1678549815 186554 e8f0fa8ca05e038f257a06405232745f ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb" 1678549815 169201 9ebf99020dde51a5086e186761a34e8f ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1678549815 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1678549815 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -277,7 +279,7 @@
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/zref/zref.sty" 1678549815 2424 3bac1fd5b575c85b1d166730dc8e1e20 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/web2c/texmf.cnf" 1678549815 40748 4081c8bc921e56c865f975bd762e388c ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1678549815 7884066 8197b5e86c7bf6d7352283907f10d5c2 ""
-  "advanced-scratch.tex" 1699307873 4395 e6eb58ebea400528b24868b20223a5ef ""
+  "advanced-scratch.tex" 1699373161 4429 a5c9255b1e96227a0ebfd0fbedbd1261 ""
   "assets/dices1.csv" 1699306407 115 3c60eba699b407fa8470895f6ef3a404 ""
   "assets/generator.py" 1699305905 171 13399ce22e75bc5f6bff6023db743ddd ""
   (generated)
